@@ -1,0 +1,23 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "The 'Battleship' project for The Odin Project. ( https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/battleship )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeeseGod/battleship.git"
+  },
+  "author": "MeeseGod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeeseGod/battleship/issues"
+  },
+  "homepage": "https://github.com/MeeseGod/battleship#readme",
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "webpack": "^5.65.0"
+  }
+}
