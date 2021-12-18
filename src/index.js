@@ -1,1 +1,3 @@
-console.log("Test");
+import newShip from "../src/createShips";
+
+newShip();

@@ -1,1 +1,1 @@
-console.log("Test");
+(()=>{"use strict";class t{constructor(t,s,i,h){this.type=t,this.length=s,this.hitpoints=i,this.isSunk=h}}new t("Battleship",3,3,!1)})();
