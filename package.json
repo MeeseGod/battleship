@@ -4,7 +4,7 @@
   "description": "The 'Battleship' project for The Odin Project. ( https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/battleship )",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MeeseGod/battleship#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
     "jest": "^27.4.5",
     "webpack": "^5.65.0"
   }
