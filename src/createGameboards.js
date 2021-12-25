@@ -1,12 +1,21 @@
+import newShip from ("../src/createShips");
+
 class createGameboard{
     constructor(){
-        this.receiveAttack = function(x, y){
-            if(x== "Occupied" && y == "Occupied"){
-                return true;
-            }
-            else{
-                return false;
-            };
+        this.placeShip = function(){
+            return true;
+        };
+        this.receiveAttack = function(){
+            return true;
+        };
+        this.missedAttack = function(){
+            return true;
+        };
+        this.allShipsSunk = function(){
+            return true;
+        }
+        this.getLivingShips = function(){
+            return true;
         }
     }
 }

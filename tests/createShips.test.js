@@ -7,3 +7,8 @@ test("Pass parameters and return object appropriately", () => {
 test("Return true if HP is 0", () => {
     expect(newShip("Battleship", 3, 3).isSunk(0)).toBe(true);
 })
+
+test("Returns hit if hit", () => {
+    expect(newShip("Battleship", 3, 3).hit(0)).toBe("Hit");
+    expect(newShip("Battleship", 3, 3).hit(5)).toBe(false);
+})
