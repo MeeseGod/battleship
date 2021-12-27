@@ -1,0 +1,19 @@
+#gameboardsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.gameboards{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    transform: translateY(50px);
+}
+
+#player1Gameboard{
+    margin-right: 100px;
+}

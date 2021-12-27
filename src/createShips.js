@@ -1,8 +1,8 @@
 class createShip{
-    constructor(type, length, hitpoints){
+    constructor(type, length){
         this.type = type;
         this.length = length;
-        this.hitpoints = hitpoints;
+        this.hitpoints = length;
         this.locations = [...Array(length).keys()]
         this.hit = function(targetLocation){
             if(this.locations[targetLocation] != undefined && this.locations[targetLocation] != "Hit"){
@@ -28,4 +28,3 @@ function newShip(type, length, hp){
 }
 
 module.exports = newShip;
-export default newShip;
